@@ -13,7 +13,7 @@ namespace gabcwb2018_iaas
             + ",1433;Initial Catalog=" + db
             + ";Persist Security Info=False;user id=" + user
             + ";password=" + pass
-            + ";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            + ";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;";
         }
     }
 }
